@@ -1,0 +1,30 @@
+{
+	"name": "ds_flight_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimFlight.txt",
+				"folderPath": "onprem/anshlambagit/AnshLambaYoutube/main/ADF_Project",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PAR1\u0015\u0000\u0015�\u0001\u0015r\u0015ޡ��\u000f\u001c\u0015\u0014\u0015\u0000\u0015\u0006\u0015\b\u0000\u0000L0\u0002\u0000\u0000\u0000\u0014\u0001\u0003\u0000\u0000\u0000101\t\u0007\u00002\t\u0007\u00003\t\u0007\u00004\t\u0007\u00005\t\u0007\u00006\t\u0007\u00007\t\u000788\u0003\u0000\u0000\u0000109\u0003\u0000\u0000\u0000110\u0015\u0000\u0015�\u0001\u0015�\u0001\u0015����",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

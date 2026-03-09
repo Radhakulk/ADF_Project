@@ -1,0 +1,9 @@
+{
+	"name": "radhadfproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6eb221f-d19d-4971-a141-2c51867c0c2c",
+		"tenantId": "9caf7178-f771-4e81-bb14-f0e65ad4cd16"
+	}
+}

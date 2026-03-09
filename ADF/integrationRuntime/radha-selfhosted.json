@@ -1,0 +1,6 @@
+{
+	"name": "radha-selfhosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

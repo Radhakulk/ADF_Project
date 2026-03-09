@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprim_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\RadhaFiles",
+			"userId": "radhads1109@gmailcom",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwYTNiOTg1OC0xNTMwLTQ5YzYtYTgwNS1jY2MzNDdmZWE1NWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "radha-selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
